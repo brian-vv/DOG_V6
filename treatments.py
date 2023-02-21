@@ -101,7 +101,6 @@ count_breed = data_licenses[data_licenses['YearsLicenseIssue'].isin(['2017'])].g
 count_breed = count_breed.nlargest(10, 'count')
 
 
-
 #-----------------------------------------------------------------#
 
 
