@@ -146,7 +146,7 @@ bite_per_month = bite_per_month.sort_values(by=['YearsOfBite','month_num'],ascen
 # Création d'une colonne avec l'année actuelle 
 data_morsures['Current_Year'] = datetime.now().year
 
-# Création d'une colonne Age à l'aide la soustraction de l'année actuelle et l'année de naissance du chien
+# Création d'une colonne Age à l'aide d'une soustraction de l'année actuelle et de l'année de naissance du chien
 data_morsures['Age'] = data_morsures['Current_Year'] - data_morsures['AnimalBirthYear']
 
 # Prendre les mosure de 2017 et les grouper par âge dans une colonne count 
